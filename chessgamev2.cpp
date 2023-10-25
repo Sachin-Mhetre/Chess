@@ -315,7 +315,7 @@ int main() {
     while(move[0]!='q'){
         // Display the 2D linked board
         board->display();
-        cout << "\nEnter Move: ";
+        cout << "\nEnter the Move : ";
         cin.getline(move, sizeof(move));
         if(move[0]=='r'){
             board->resetGame(board);
